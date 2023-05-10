@@ -471,15 +471,15 @@ else:
 
     #Data Vaders :)
 
-    st.title("Best Group :)")
+    st.title("Best Group :) DATA VADERS")
 
 
     video_path = 'vaders_video.mp4'
     
 
-    #video_file = open(video_path,'rb')
-    #video_bytes = video_file.read()
-    #st.video(video_bytes)
+    video_file = open(video_path,'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
 
 
 
