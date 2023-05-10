@@ -381,7 +381,7 @@ elif page == "EDA & Visualizations":
     st.title("EDA & Visualizations")
 
     # Add your EDA and visualizations here
-    st.header("Salary Distribution")
+    
 
 
 
