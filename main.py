@@ -474,7 +474,8 @@ else:
     st.title("Best Group :)")
 
 
-    #video_path = r"C:\Users\furka\Desktop\vaders_video.mp4"
+    video_path = 'vaders_video.mp4'
+    
 
     #video_file = open(video_path,'rb')
     #video_bytes = video_file.read()
