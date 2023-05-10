@@ -31,7 +31,7 @@ if page == "Prediction":
     from joblib import load
 
     # Modelin tam yolunu kullanarak modeli yükleyin
-    model_path = r'C:\Users\furka\Desktop\hit_stream\724linear_regression_hitters.joblib'
+    model_path = '724linear_regression_hitters.joblib'
     model = load(model_path)
 
     # Kullanıcıdan girdi alın
