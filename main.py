@@ -11,6 +11,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import RobustScaler
 from sklearn.preprocessing import StandardScaler
 import time
+from pandas_profiling import ProfileReport
+from streamlit_pandas_profiling import st_profile_report
 
 from PIL import Image
 
@@ -382,8 +384,7 @@ elif page == "EDA & Visualizations":
     st.header("Salary Distribution")
 
 
-    from pandas_profiling import ProfileReport
-    from streamlit_pandas_profiling import st_profile_report
+
 
     # Veri kümesini yükleyin
     url = "https://raw.githubusercontent.com/JWarmenhoven/ISLR-python/master/Notebooks/Data/Hitters.csv"
@@ -432,8 +433,7 @@ else:
     st.title("Contact")
 
 
-    image_path = r"C:\Users\furka\Desktop\miuul_logo_st.png"
-    image = Image.open(image_path)
+
 
     col1, col2, = st.columns(2)
 
